@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<title>Matching Game</title>
+	<meta name="description" content="">
+	<link rel="stylesheet prefetch" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:500" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+	<link rel="stylesheet" href="css/cards.css">
+</head>
+
+<body>
+	<div class="container">
+		<header>
+			<h1>Matching Game</h1>
+		</header>
+		<div class="score-panel">
+			<div class="ratingdiv">Rating:
+				<ul class="stars">
+					<li><i class="fa fa-star"></i>
+					</li>
+					<li><i class="fa fa-star"></i>
+					</li>
+					<li><i class="fa fa-star"></i>
+					</li>
+				</ul>
+			</div>
+			<div class="clockdiv">Time: <span class="clock">0:00</span>
+			</div>
+			<div class="movesdiv">	<span class="moves">0</span> Moves</div>
+			<div class="restart">	<i class="fa fa-repeat"></i>
+			</div>
+		</div>
+		<ul class="deck">
+			<li class="card one">
+				<img src="img/one.jpg" alt="onedot" />
+			</li>
+			<li class="card two">
+				<img src="img/two.jpg" alt="twodot" />
+			</li>
+			<li class="card three">
+				<img src="img/three.jpg" alt="threedot" />
+			</li>
+			<li class="card four">
+				<img src="img/four.jpg" alt="fourdot" />
+			</li>
+			<li class="card five">
+				<img src="img/five.jpg" alt="fivedot" />
+			</li>
+			<li class="card six">
+				<img src="img/six.jpg" alt="sixdot" />
+			</li>
+			<li class="card seven">
+				<img src="img/seven.jpg" alt="sevendot" />
+			</li>
+			<li class="card eight">
+				<img src="img/eight.jpg" alt="eightdot" />
+			</li>
+			<li class="card one">
+				<img src="img/one.jpg" alt="onedot" />
+			</li>
+			<li class="card two">
+				<img src="img/two.jpg" alt="twodot" />
+			</li>
+			<li class="card three">
+				<img src="img/three.jpg" alt="threedot" />
+			</li>
+			<li class="card four">
+				<img src="img/four.jpg" alt="fourdot" />
+			</li>
+			<li class="card five">
+				<img src="img/five.jpg" alt="fivedot" />
+			</li>
+			<li class="card six">
+				<img src="img/six.jpg" alt="sixdot" />
+			</li>
+			<li class="card seven">
+				<img src="img/seven.jpg" alt="sevendot" />
+			</li>
+			<li class="card eight">
+				<img src="img/eight.jpg" alt="eightdot" />
+			</li>
+		</ul>
+	</div>
+	<div class="modal_background hide">
+		<div class="modal_body">
+			<header class="modal_head"> <span class="modal_close">x</span>
+			</header>
+			<div class="modal_congrats">
+				<p><em>Congratulations!<br>You're a winner!</em>
+				</p>
+			</div>
+			<div class="modal_stats">
+				<h3>Game Stats</h3>
+				<span class="modal_time">Time:</span>
+				<span class="modal_rating">Rating:</span>
+				<span class="modal_moves">Moves:</span>
+			</div>
+			<div class="modal_button">
+				<button class="playagain">Play Again?</button>
+			</div>
+		</div>
+	</div>
+	<script src="js/cards.js"></script>
+</body>
+
+</html>
