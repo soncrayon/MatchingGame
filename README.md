@@ -25,6 +25,26 @@ cards.css -- css file for the game's styling, font, and design
 
 cards.js -- javascript file contaiing click events for the game and game logic
 
+Image files:
+
+card_design1.jpg
+
+one.jpg
+
+two.jpg
+
+three.jpg
+
+four.jpg
+
+five.jpg
+
+six.jpg
+
+seven.jpg
+
+eight.jpg 
+
 Credits
 -------
 
