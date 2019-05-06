@@ -20,7 +20,9 @@ Technical
 This project consists fo the following files:
 
 cards.html -- html for the game's underlying layout
+
 cards.css -- css file for the game's styling, font, and design 
+
 cards.js -- javascript file contaiing click events for the game and game logic
 
 Credits
