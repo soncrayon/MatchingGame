@@ -1,4 +1,4 @@
-Udacity Matching Game
+Matching Game
 =====================
 
 ## This is a project assigned for Project 2 of the Front End Nanodegree--to create a matching game using html, css, and javascript. 
